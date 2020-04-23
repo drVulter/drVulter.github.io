@@ -1,2 +1,1 @@
-# drVulter.github.io
-Quinn Stratton personal webpage
+Code for my personal academic website.

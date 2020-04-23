@@ -1,0 +1,116 @@
+@font-face {
+    font-family: computer-modern;
+    src: url('fonts/cmunrm-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: mono-computer;
+    url('fonts/cmuntt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: latin-caps;
+    src: url('fonts/lmromancaps10-regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: latin-modern;
+    url('fonts/lmroman10-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    /*background-color: #5F9EA0;*/
+    /*background-color: #FBEEC1;*/
+    /*background-color: #C5CBE3;*/
+    background-color: #EAE7DC;
+    /*background-color: #EDF5E1*/
+    font-family: computer-modern, Georgia;
+}
+h1 {
+    font-family:latin-caps;
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th {
+    text-align: left;
+}
+th, td {
+    padding: 15px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:solid;
+    border-width:1pt;
+}
+.btn {
+    background-color: #333;
+    color: #f2f2f2;
+    border:none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family:latin-caps;
+    cursor: pointer;
+    display: inline-block;
+}
+/* On mouse-over */
+.btn:hover {
+    /*:background: #ddd;*/
+    background: #8e8d8a;
+    font-family:latin-caps;
+    color: black;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*font-size: 17px;*/
+    font-size: larger;
+}
+
+.topnav a:hover {
+    /*background-color: #ddd;*/
+    background-color: #8e8d8a;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #000000;
+    color: white;
+}
+.topnav a.active:hover {
+    background-color: #8e8d8a;
+    color: black;
+}
+.topnav-right {
+    float: right;
+}
+/* Horizontal Rule */
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
